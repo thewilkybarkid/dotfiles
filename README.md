@@ -10,4 +10,7 @@ git --git-dir=$HOME/.dotfiles/ config --local status.showUntrackedFiles no
 
 # Set up Bash
 source $HOME/.bash_profile
+
+# Install and set up the rest
+dtf-setup
 ```
