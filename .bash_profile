@@ -1,4 +1,5 @@
 export EDITOR=nano
+export GPG_TTY="$(tty)"
 
 
 
