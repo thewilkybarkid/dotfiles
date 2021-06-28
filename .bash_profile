@@ -1,3 +1,7 @@
+export EDITOR=nano
+
+
+
 # dotfiles
 
 DOTFILES=$HOME/.dotfiles

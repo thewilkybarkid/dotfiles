@@ -43,6 +43,49 @@
             }
           }
         }
+      },
+      "nano": {
+        "version": "5.8",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_big_sur": {
+              "cellar": "/opt/homebrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/nano/blobs/sha256:6178715c7ad2ab86dcf43d59442af4e5fd9ddc65041934329f53f7a31a261eec",
+              "sha256": "6178715c7ad2ab86dcf43d59442af4e5fd9ddc65041934329f53f7a31a261eec"
+            },
+            "big_sur": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/nano/blobs/sha256:39c0fdeb6069c928f0a71b9affa20fcc330ddf55e1f39178cf246a0a3806830f",
+              "sha256": "39c0fdeb6069c928f0a71b9affa20fcc330ddf55e1f39178cf246a0a3806830f"
+            },
+            "catalina": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/nano/blobs/sha256:f48cedf405592c2e8479b26ff199a1ce339a97b511eb7afb368e638f7e09f5b6",
+              "sha256": "f48cedf405592c2e8479b26ff199a1ce339a97b511eb7afb368e638f7e09f5b6"
+            },
+            "mojave": {
+              "cellar": "/usr/local/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/nano/blobs/sha256:450b2c6435a9e91d32b2c7caca61b800bb2d8ccf8218bc7c58a4e0d0b7e3efcf",
+              "sha256": "450b2c6435a9e91d32b2c7caca61b800bb2d8ccf8218bc7c58a4e0d0b7e3efcf"
+            }
+          }
+        }
+      },
+      "nanorc": {
+        "version": "2020.10.10",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/nanorc/blobs/sha256:bf71c9da19d2ac1b05163bd9f92ea86adc475ca15d3e95101c91d788ff781625",
+              "sha256": "bf71c9da19d2ac1b05163bd9f92ea86adc475ca15d3e95101c91d788ff781625"
+            }
+          }
+        }
       }
     }
   },
