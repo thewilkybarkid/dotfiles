@@ -6,6 +6,12 @@ alias dtf-setup=$HOME/setup.sh
 
 
 
+# nvm (https://github.com/nvm-sh/nvm)
+
+export NVM_DIR=$HOME/.nvm
+
+
+
 # Starship (https://starship.rs/)
 
 export STARSHIP_CONFIG=$HOME/.starship

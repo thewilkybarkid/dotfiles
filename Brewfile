@@ -1,1 +1,2 @@
+brew 'nvm'
 brew 'starship'
