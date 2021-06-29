@@ -1,0 +1,25 @@
+[user]
+  name = Chris Wilkinson
+  email = c.wilkinson@elifesciences.org
+
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+
+[color]
+  ui = auto
+
+[pull]
+  rebase = false
+
+[init]
+  defaultBranch = main
+
+[filter "lfs"]
+  required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+
+[include]
+  path = .gitconfig.local

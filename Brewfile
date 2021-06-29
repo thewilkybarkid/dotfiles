@@ -1,3 +1,6 @@
+brew 'gh'
+brew 'git'
+brew 'git-lfs'
 brew 'nano'
 brew 'nvm'
 brew 'starship'
