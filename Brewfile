@@ -1,3 +1,4 @@
+brew 'diff-so-fancy'
 brew 'gh'
 brew 'git'
 brew 'git-lfs'
